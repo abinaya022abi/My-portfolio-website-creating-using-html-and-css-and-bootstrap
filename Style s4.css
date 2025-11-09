@@ -1,0 +1,428 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Introduction Section  start*/
+.intro-section {
+    font-size: 0;
+}
+
+.image-section,
+.content {
+    display: inline-block;
+    width: 50%;
+    vertical-align: middle;
+    font-size: 16px;
+    padding: 20px;
+}
+
+.image-section {
+    text-align: center;
+}
+
+.image-section img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.content h1 {
+    font-size: 2.5rem;
+    margin: 20px 0px 25px;
+}
+
+.content .Description1 {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.content .get.start.button {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #28E98C;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 100px;
+    transition: 0.3s;
+}
+
+.content .get.start.button:hover {
+    background: black;
+    color: white;
+}
+
+/* introduction section end */
+/* about section start */
+.about-section {
+    font-size: 0;
+}
+
+.about-content,
+.image-sec2 {
+    display: inline-block;
+    width: 50%;
+    vertical-align: middle;
+    font-size: 16px;
+    padding: 10px;
+}
+
+p.abt {
+    font-size: 18px;
+    margin: 0px 0px 10px;
+}
+
+h1.abtt {
+    font-size: 48px;
+    margin: 0px 0px 16px;
+}
+
+.abtt span {
+    color: #28E98C;
+}
+
+p.description2 {
+    font-size: 16px;
+    color: #666666;
+    margin: 0px 0px 10px;
+}
+
+.num1 {
+    display: flex;
+}
+
+.num {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+h1.number {
+    font-size: 46px;
+}
+
+p.text1 {
+    align-items: center;
+    font-weight: 400;
+    color: black;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+a.abt.button {
+    color: black;
+    font-size: 16px;
+    background: #28E98c;
+    padding: 20px 32px;
+    border-radius: 100px;
+    text-decoration: none;
+}
+
+a.abt.button :hover {
+    background: black;
+    color: white;
+}
+
+.contact {
+    display: inline-block;
+    color: #000;
+    font-size: 18px;
+    padding-left: 20px;
+    font-weight: 600;
+}
+
+.contact span {
+    color: #666666;
+}
+
+.atb {
+    font-size: 16px;
+    margin: 30px 0px 0px;
+}
+
+.image-sec2 img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* about section end */
+/* project start */
+.pro-topic {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.pro-topic span {
+    color: #28E98C;
+}
+
+.pro-right h1 {
+    color: #1c1d20;
+    font-size: 35px;
+}
+
+.pro-right {
+    font-size: 18px;
+}
+
+.images-4 img {
+    border-radius: 12px;
+    border: 1px solid #28E98c;
+    display: flex;
+}
+
+.images-4 img:hover {
+    border: #28E98c;
+    border-radius: 12px;
+}
+
+.pro-right {
+    display: flex;
+    justify-content: space-between;
+}
+
+a.project-button {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #28E98c;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 100px;
+    transition: 0.3s;
+}
+
+a.project-button:hover {
+    background-color: black;
+    color: white;
+}
+
+.img-a {
+    display: flex;
+    gap: 5px;
+    text-align: center;
+}
+
+.img-b {
+    display: flex;
+    gap: 5px;
+    text-align: center;
+}
+
+.img-a img {
+    max-width: 100%;
+}
+
+.img-b img {
+    max-width: 100%;
+}
+
+/* project end */
+/* pricing start */
+.pricing {
+    background-color: #F5F5F5;
+    padding: 0px 10px;
+    width: 100%;
+}
+
+.price-1 {
+    width: 350px;
+    height: 450px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 20px;
+    margin-right: 10px;
+    display: inline-block;
+    overflow: auto;
+    font-size: 16px;
+    padding: 40px 30px;
+}
+
+.price-1:hover {
+    border-color: #28E98C;
+    box-shadow: #28E98C;
+}
+
+.pricing-header {
+    text-align: center;
+}
+
+.pricing-header h1 {
+    font-size: 48px;
+}
+
+.pricing-header span {
+    color: #28E98C;
+}
+
+.price span {
+    color: #28E98C;
+    font-size: 40px;
+    margin: 5px 0px 10px;
+    font-weight: 600;
+}
+
+a.start-button {
+    text-decoration: none;
+    border: 1.5px solid #28E98C;
+    border-radius: 100px;
+    color: #000;
+    font-size: 14px;
+    margin: 25px 0px 0px;
+    padding: 15px;
+    align-items: center;
+
+}
+
+a.start-button:hover {
+    background-color: #28E98C;
+}
+
+/* pricing end */
+/* blog start */
+.blog {
+    color: #1C1D20;
+    font-size: 16px;
+    margin: 0px 13px;
+    padding: 115px 0px 120px;
+    max-width: 100%;
+}
+
+.blog-post {
+    margin-top: 60px;
+    border: 1px solid rgba(102, 102, 102, 0.24);
+    border-radius: 20px;
+    margin-right: 20px;
+    display: inline-block;
+    overflow: hidden;
+    font-size: 16px;
+}
+
+.blog-post:hover {
+    border-color: #28E98C;
+}
+
+.blog-img .blog-post img {
+    height: 229px;
+    width: 421px;
+}
+
+.blog-img .blog-content {
+    font-size: 16px;
+    padding: 16px 20px 30px;
+}
+
+.blog-img {
+    display: flex;
+}
+.blog-content h5{
+    font-size: 24px;
+
+}
+
+.blog-content .bl1 span {
+    color: #28E98C;
+    font-weight: 600;
+}
+
+.blog-header {
+    text-align: center;
+}
+
+.blog-header h1 span {
+    color: #28E98C;
+}
+
+.butt {
+    text-align: center;
+}
+
+.blog .but1 {
+    color: black;
+    font-size: 16px;
+    background: #28E98c;
+    padding: 20px 32px;
+    border-radius: 100px;
+    text-decoration: none;
+    align-items: center;
+    
+}
+
+.blog .but1:hover {
+    color: white;
+    background-color: #000;
+}
+
+/* blog end */
+
+
+/* Responsiveness */
+@media screen and (max-width:998px) {
+
+    .image-section,
+    .content {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    .about-content,
+    .image-sec2 {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    .img-a,
+    .img-b {
+        display: inline;
+        width: 100%;
+        text-align: center;
+    }
+
+    .pro-topic {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    .price-1 {
+        width: 100%;
+        display: block;
+    }
+
+    .blog-img {
+        width: 100%;
+        display: inline;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:568px)and (max-width:950px) {
+
+    .img-a,
+    .img-b {
+        display: flex;
+        width: 100%;
+        text-align: center;
+    }
+
+}
